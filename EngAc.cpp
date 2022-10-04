@@ -12,12 +12,12 @@ int main()
 {
     double a;
         TextColor(3);
-        cout << "Smart Calculator" << '\n'<< '\n';
+        cout << "Smart Age Calculator" << '\n'<< '\n';
         cout << "-------------------------------------------" <<'\n';
         TextColor(6);
         cout << ">>> Please enter your age: "; cin >>a;
         TextColor(2);
-        cout << "Loading..." << '\n';
+        cout << "Loading Engine..." << '\n';
         cout << "Load 0%..." << '\n';
         sleep(3);
         cout << "Load 10%..." << '\n';
@@ -33,7 +33,7 @@ int main()
         cout << "Load 90%..." << '\n';
         sleep(10);
         cout << "Load 100%..." << '\n';
-        cout << "Done..." << '\n' << '\n';
+        cout << "All things have done..." << '\n' << '\n';
         sleep(4);
         TextColor(4);
         cout << " >>> You are: " << a << "years old!" << '\n';
